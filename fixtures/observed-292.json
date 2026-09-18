@@ -1,0 +1,34 @@
+{
+  "fixture_version": 1,
+  "source": "fixture-generated-redacted",
+  "captured_at": "2026-09-18T12:00:00+08:00",
+  "request": {
+    "method": "POST",
+    "path": "[REDACTED:ENDPOINT]",
+    "model": "[REDACTED:MODEL]"
+  },
+  "response": {
+    "status_code": 292,
+    "headers": {
+      "content-type": "application/json"
+    },
+    "body": {
+      "current_turn_state": "[REDACTED:OPAQUE_STATE]",
+      "expires_at": "2026-09-18T13:00:00+08:00"
+    }
+  },
+  "claims": [
+    {
+      "claim": "fixture 中出现了名为 current_turn_state 的字段",
+      "evidence_level": "observed_fixture",
+      "confidence": "high",
+      "notes": "只确认字段存在，不解释其服务端含义"
+    },
+    {
+      "claim": "292 表示通行证",
+      "evidence_level": "unknown",
+      "confidence": "none",
+      "notes": "数字标签不自动推断语义"
+    }
+  ]
+}
