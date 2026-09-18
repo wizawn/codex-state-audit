@@ -9,7 +9,7 @@
 | fixture 中出现数字状态 `292` 或 `312` | `observed_fixture` | 只记录数字和字段存在性。 |
 | `292` 携带名为 `current_turn_state` 的字段 | `observed_fixture`（仅限给定 fixture） | 将值视为不透明敏感字段；不解释用途。 |
 | `292` 是通行证、`312` 是降智/撤销信号 | `unknown` / `hypothesis` | 没有原始协议、对照实验或官方定义，程序不推断。 |
-| TTL 约一小时、换 IP 仍有效、特定模型/IP 能稳定签发 | `unverified` | 只对 fixture 的时间戳做本地算术；不切换网络、不发请求。 |
+| TTL 约一小时、换 IP 仍有效、特定模型/IP 能稳定签发 | `unknown` | 只对 fixture 的时间戳做本地算术；不切换网络、不发请求。 |
 | 代理注入、状态续期、账号凭据或服务端调度绕过 | `unsafe_do_not_implement` | 不提供代码、配置、抓包步骤或操作指南。 |
 
 ## 工具如何对应文章
