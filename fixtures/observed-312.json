@@ -1,0 +1,26 @@
+{
+  "fixture_version": 1,
+  "source": "fixture-generated-redacted",
+  "captured_at": "2026-09-18T12:10:00+08:00",
+  "response": {
+    "status_code": 312,
+    "headers": {
+      "content-type": "application/json"
+    },
+    "body": {
+      "message": "[REDACTED:MESSAGE]"
+    }
+  },
+  "claims": [
+    {
+      "claim": "fixture 中观察到数字状态 312",
+      "evidence_level": "observed_fixture",
+      "confidence": "high"
+    },
+    {
+      "claim": "312 一定表示降智或撤销",
+      "evidence_level": "unknown",
+      "confidence": "none"
+    }
+  ]
+}
